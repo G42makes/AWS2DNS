@@ -1,0 +1,7 @@
+CanonicalizeHostname yes
+CanonicalDomains private.ip.ec2.aws.dns
+Host *.aws.dns
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
+        LogLevel QUIET
+        User user.name
